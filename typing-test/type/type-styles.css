@@ -37,3 +37,7 @@ margin: 5px;
   padding: 5px;
   margin: 5px;
 }
+#word-input{
+  color:black;
+  font-weight: bold;
+}
