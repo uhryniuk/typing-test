@@ -1,0 +1,51 @@
+/* Highest Level Container for Type Content*/
+#type-content{
+display: flex;
+justify-content: center;
+}
+/*
+Header/Title of the page we are on.
+Might make this a global style though just with different
+content on each page.
+*/
+#type-header{
+
+
+}
+
+/* Container holding the word bank and input space */
+#typing-container{
+  border-style: solid;
+  display: flex;
+  justify-content: center;
+  width:  70%;
+  margin-top: 15%;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+}
+
+/* Container that will haev the word written into them */
+#word-bank{
+border-style: solid;
+padding: 5px;
+margin: 5px;
+overflow: hidden;
+}
+.row{
+  display: flex;
+  justify-content: flex-start;
+}
+.word{
+  margin-right: 10px;
+}
+/* Input space, 10FastFinger style. */
+#current-word{
+  border-style: solid;
+  padding: 5px;
+  margin: 5px;
+}
+#word-input{
+  color:black;
+  font-weight: bold;
+}
