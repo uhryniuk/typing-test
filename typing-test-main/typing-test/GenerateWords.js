@@ -15,7 +15,7 @@ class GenerateWords{
 */
 function getNumbers(){
    let numberList = [];
-   for(let i=0; i < 12; i++){
+   for(let i=0; i < 20; i++){
        // Generetes a number between one and 199 for Array
        let randomNumber = Math.floor((Math.random() * 199));
        
@@ -53,7 +53,7 @@ function getNumbers(){
         'however', 'lead', 'system', 'set', 'order', 'eye', 'plan', 'run', 'keep', 'face', 
         'fact', 'group', 'play', 'stand', 'increase', 'early', 'course', 'change', 'help', 'line', 
         ];
-        for(let i=0; i < 12; i++){
+        for(let i=0; i < 20; i++){
             newWordList.push(normalWordBank[numbers[i]]);
         }
         return newWordList;
